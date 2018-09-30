@@ -1,0 +1,60 @@
+.main-login-parent{
+    background-color:#3CBD8D ;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.form{
+    width: 100vw;
+    height: 60%;
+    font-size: 1.5em;
+    background-color:white; 
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    box-shadow: 0px 10px 10px rgba(38, 119, 89, 0.5);
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.lbl{
+    display: none;
+}
+.input{
+    padding: 10px;
+    width: 75%;
+    font-size: 1em;
+    background-color: lightgray;
+    
+}
+.btn{
+    
+    font-size: 1em;
+    background-color: #3CBD8D;
+    color: white;
+    padding: 1%;
+    width: 77%;
+}
+*{
+    border:none;
+    border-radius: 5px; 
+}
+.btn:hover {
+    background-color: rgb(47, 136, 103);
+    cursor: pointer;
+
+}
+.h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width:600px){
+   .form { 
+    width: 40%;
+    height: 60%;
+   }
+}

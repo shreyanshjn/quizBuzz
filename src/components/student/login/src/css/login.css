@@ -1,0 +1,62 @@
+
+.wrapper{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:100vw;
+    height:100vh;
+    background: #3CBC8D;
+}
+ *{
+    border:none;
+    border-radius: 3px;
+}
+.student_login_form{
+    width : 90%;
+    height: 60%;
+    padding : 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+    color:grey;
+    font-size: 1.3em;
+    box-shadow: 0px 10px 10px rgb(45, 145, 108);
+}
+
+.student_login_form > input[type = text],
+.student_login_form > input[type = password]{
+    width : 70%;  
+    font-size : 1em;
+    background: lightgray;
+    padding: 10px;
+}
+.student_login_form > label{
+    display : none;
+}
+.main-button{
+    width:75%;
+    display: flex;
+    justify-content: space-around;
+    padding : 10px;
+}
+.main-button > button[type = submit]{
+    width : 100%;
+    font-size : 1em;
+    background-color: #3CBC8D;
+    color:white;
+    padding : 10px;
+    }
+.main-button > button:hover{
+    background-color: rgb(39, 124, 93);
+    cursor : pointer;
+}
+@media screen and (min-width :500px){
+     .student_login_form{
+         width : 40%;
+         height: 60%;
+     }
+}

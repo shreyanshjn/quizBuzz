@@ -1,0 +1,43 @@
+.student-navbar-parent{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: black;
+    color:white;
+
+    width: 100%;
+}
+.student-navbar-parent > p {
+    border : none;
+    width : 100%;
+    text-align:center;
+}
+.student_pic{
+    display: none;
+}
+.student-navbar-parent > label{
+    display : none;
+    font-weight: bold;
+}
+@media screen and (min-width : 600px){
+    .student-navbar-parent{
+        flex-direction : column;
+        width : 30%;
+        height : 100vh;
+       } 
+    .student-navbar-parent > label{
+        display : inline;
+    }
+    .student_pic{
+        display : inline;
+        border : solid white;
+        background-image: url(../img/img_avatar.png);
+        background-size: cover;
+        background-position: center;
+        width : 45%;
+        height : 25%;
+    }
+    
+}

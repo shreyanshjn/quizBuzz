@@ -1,0 +1,41 @@
+.hide{
+    display: none;
+}
+.btn{
+    font-size: 1em;
+    color: white;
+    padding: 1%;
+    width:20vw;
+    background-color: lightgreen;
+
+
+}
+.form{
+    background-color:lightcyan;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+max-height: 90vh;
+overflow: scroll;
+overflow: auto;
+    
+   
+}
+.ques{
+    background-color:white;
+    width: 45vw;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+     max-height: 85%;
+     overflow: scroll;
+     overflow: auto;
+}
+.input{
+    border-bottom-color: rgb(184, 29, 29);
+    background-color: lightcyan;
+}
