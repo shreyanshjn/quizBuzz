@@ -27,3 +27,4 @@ yarn-error.log*
 /uploads/student/images/*.jpg
 /uploads/prof/images/*.png
 /uploads/student/images/*.png
+/uploads/student/faces
